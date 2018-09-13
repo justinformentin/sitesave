@@ -14,17 +14,17 @@ git clone https://github.com/justinformentin/sitesave
 # Go into the repository
 cd sitesave
 
-# Install dependencies for the client (frontend)
+# Install dependencies for frontend - client
 cd client
 npm i
 
-# ... and for the server (backend)
-cd ../server 
+# Install dependencies for backend - server
+cd ../server
 npm i
 
 # Run the app
-npm start   # client/ ==> Your application is running here: http://localhost:8080
-npm start   # server/ ==> Server started on port: 8081
+npm start
+npm start
 ```
 
 The client will be running at localhost:8080 and the server will be running on port:8081.
