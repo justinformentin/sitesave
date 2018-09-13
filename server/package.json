@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js src/app.js --exec",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "author": "Justin Formentin",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "eslint": "^4.15.0",
+    "express": "^4.16.2",
+    "joi": "^13.1.0",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.11",
+    "sequelize": "^4.31.2",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
