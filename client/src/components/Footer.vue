@@ -12,9 +12,6 @@
   </footer>
 </template>
 
-<script>
-</script>
-
 <style scoped>
 footer.footer {
   background: #fff;
