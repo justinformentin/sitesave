@@ -1,6 +1,6 @@
-# SiteServe
+# SiteSave
 
-SiteServe is a Full Stack Vue application using [Sequelize](http://docs.sequelizejs.com/) and [Express.js](http://expressjs.com/) on the backend. 
+SiteSave is a Full Stack Vue application using [Sequelize](http://docs.sequelizejs.com/) and [Express.js](http://expressjs.com/) on the backend. 
 
 It features authentication; you can register and log in. Once logged in, you can add websites that you'd like to save, entering the URL, title, description, and image. All of that info is saved in the database file.
 
